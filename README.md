@@ -1,1 +1,15 @@
-The purpose of this tool is to detect java files that contain unit test methods. The results of the tools execution will saved in a CSV file for further processing (by other tools) or to imported into a database.
+The purpose of this tool is to detect Java files that contain unit test methods, find the
+class under test for each of those files, and generate a CSV file suitable for usage with
+tsDetect.
+
+# Installation:
+'''
+mvn package
+'''
+
+
+# Usage:
+'''
+java -jar target/tsDetectFrontend-0.1-jar-with-dependencies.jar <Project name> <Root directory of project's source code> <Name for output CSV file>
+'''
+
