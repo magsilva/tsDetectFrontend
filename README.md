@@ -1,2 +1,1 @@
-# tsDetectFrontend
-Create output CSV for tsDetect
+The purpose of this tool is to detect java files that contain unit test methods. The results of the tools execution will saved in a CSV file for further processing (by other tools) or to imported into a database.
